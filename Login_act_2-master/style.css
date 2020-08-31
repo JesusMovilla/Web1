@@ -5,28 +5,22 @@ body{
     background-size: cover;
     background-position: all;
     background-repeat: no-repeat;
-    font-family: sans-serif;    
-}
-
-h1{
-    padding: 20px 20px 20px;
-    text-align: center;
-    font-size: 26px;
+    font-family: sans-serif;     
 }
 
 .loginbox{
     width: 320px;
-    height: 420px;
+    height: 490px;
     background-color: rgba(51, 74, 92, 0.5);
     color:#fff;
-    top: 40%;
-    left: 75%;    
+    top: 44%;
+    left: 80%;    
     position: absolute;    
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
-    font-size: 18px;
     border: white 2.5px solid;
+    border-radius: 12px;
 }
 
 .avatar{
@@ -38,10 +32,78 @@ h1{
     left: calc(50% - 75px);
 }
 
-.mainbox{
-    width: all;
-    height: all;
-    background-color: white;
-    top: 10%;
-    left: 10%;
+h1{
+    padding: 20px 20px 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+a{
+    color: white;
+    text-decoration: underline; 
+}
+
+.botones{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.loginbox .controles{
+    width: 91%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff;
+}
+
+.registerbox{
+    width: 400px;    
+    background-color: rgba(51, 74, 92, 0.5);
+    color:#fff;
+    top: 50%;
+    left: 50%;    
+    position: absolute;    
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 35px;      
+    border: #fff 2.5px solid;
+    border-radius: 12px;  
+}
+
+.registerbox .controles{
+    width: 95%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.registerbox .ter_cond {
+height: 40px;
+font-size: 16px;
+}
+
+div{
+    background-color: rgba(51, 74, 92, 0.8);
+    right: 5%;
+    left: 5%;
+    color: white;
+    margin: auto;
+    font-size: 18px;
+    padding: 15px 15px;
+    border: white 2.5px solid;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
 }
