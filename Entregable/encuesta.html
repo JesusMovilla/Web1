@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form>
+        <p>Pregunta 1 <br>
+        Nombres <input type="text" name="nombres" placeholder="Ingrese sus nombres" required></p>
+        <p>Pregunta 2 <br>
+        Apellidos <input type="text" name="apellidos" placeholder="Ingrese sus apellidos" required></p>
+        <p>Pregunta 3 <br>
+        Registre su temperatura corporal <br>
+        <label><input type="radio" name="temperatura" value="Menos de 37°C" required>Menos de 37°C</label><br>
+        <label><input type="radio" name="temperatura" value="Entre 37°C y 38°C" required>Entre 37°C y 38°C</label><br>
+        <label><input type="radio" name="temperatura" value="Entre 38°C y 39°C" required>Entre 38°C y 39°C</label><br>
+        <label><input type="radio" name="temperatura" value="Más de 39°C" required>Más de 39°C</label>
+        </p>
+        <p>Pregunta 4 <br>
+            ¿Vive con personas de alto riesgo (Menores de 2 años o tercera edad)? <br>
+            <select name="riesgo" required>
+                <option selected></option>
+                <option>Sí</option>
+                <option>No</option>
+                <option>Otros</option>
+            </select>
+        </p>
+        <p>Pregunta 5 <br>
+            ¿Qué síntomas presenta? <br>
+            <label><input type="checkbox" name="sintomas" value="Tos" required>Tos</label><br>
+            <label><input type="checkbox" name="sintomas" value="Cabeza">Dolor de cabeza</label><br>
+            <label><input type="checkbox" name="sintomas" value="Garganta">Dolor de garganta</label><br>
+            <label><input type="checkbox" name="sintomas" value="Respirar">Problemas al respirar</label><br>
+            <label><input type="checkbox" name="sintomas" value="Ninguna">Ninguno</label>
+        </p>
+        <p>Pregunta 6 <br>
+            ¿Ha tenido contacto con viajeros del exterior o nacionales? <br>
+            <select name="viajes" required>
+                <option selected></option>
+                <option>Sí</option>
+                <option>No</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" name="Enviar">
+            <input type="reset" name="Limpiar">
+        </p>
+    </form>
+    <a href="resultados_encuesta.html">Resultados de la encuesta</a>
+</body>
+</html>
